@@ -22,7 +22,7 @@ Plug 'jpalardy/vim-slime', { 'for':['python','julia']}
 Plug 'hanschen/vim-ipython-cell',{ 'for':['python','julia']}
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'morhetz/gruvbox'
-Plug 'Valloric/YouCompleteMe'
+Plug 'davidhalter/jedi-vim'
 Plug 'mbbill/undotree'
 Plug 'vim-utils/vim-man'
 call plug#end()
