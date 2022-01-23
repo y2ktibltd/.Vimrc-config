@@ -18,11 +18,8 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=black
 
 call plug#begin()
-Plug 'jpalardy/vim-slime', { 'for':['python','julia']}
-Plug 'hanschen/vim-ipython-cell',{ 'for':['python','julia']}
 Plug 'JuliaEditorSupport/julia-vim'
-Plug 'morhetz/gruvbox'
 Plug 'davidhalter/jedi-vim'
-Plug 'mbbill/undotree'
 Plug 'vim-utils/vim-man'
+Plug 'bfrg/vim-cpp-modern'
 call plug#end()
