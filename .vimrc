@@ -10,6 +10,7 @@ set nowrap
 set smartcase
 set noswapfile
 set incsearch
+set pastetoggle=<F2> 
 
 call plug#begin()
 Plug 'JuliaEditorSupport/julia-vim'
