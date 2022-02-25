@@ -11,7 +11,7 @@ set smartcase
 set noswapfile
 set incsearch
 set pastetoggle=<F2>
-map <F8> :w <CR> :!gcc -Wall % -o %<.out <CR> :vert term ./%<.out<CR>
+map <F8> :w <CR> :!gcc -Wall % -o %<.out <CR> :vert term ./%<.out <CR>
 
 call plug#begin()
 Plug 'JuliaEditorSupport/julia-vim'
